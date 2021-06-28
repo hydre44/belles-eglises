@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_eglise_site_officiels",
+  "info": {
+    "name": "site_officiel",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "adresse_lien": {
+      "type": "string"
+    },
+    "nom_lien": {
+      "type": "string"
+    }
+  }
+}

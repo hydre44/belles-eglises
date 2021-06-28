@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_eglise_contact_et_infos",
+  "info": {
+    "name": "contact et info",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "info": {
+      "type": "richtext"
+    },
+    "lien": {
+      "type": "string"
+    }
+  }
+}

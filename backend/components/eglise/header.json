@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_eglise_headers",
+  "info": {
+    "name": "header",
+    "icon": "church",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string",
+      "required": true
+    },
+    "auteur_principal": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "progression": {
+      "type": "integer",
+      "max": 100,
+      "min": 0,
+      "default": 0,
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "Photo_principale": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "auteurs": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "adresse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "eglise.adresse"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_eglise_commentaires",
+  "info": {
+    "name": "commentaire",
+    "icon": "comment-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nom_utilisateur": {
+      "type": "string"
+    },
+    "note_perso": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 5,
+      "min": 0
+    },
+    "commentaire": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

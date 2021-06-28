@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_eglise_paragraphes",
+  "info": {
+    "name": "paragraphe",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "photo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

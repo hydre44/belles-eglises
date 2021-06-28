@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_eglise_bas_de_pages",
+  "info": {
+    "name": "bas_de_page",
+    "icon": "arrow-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "commentaire": {
+      "type": "component",
+      "repeatable": true,
+      "component": "eglise.commentaire"
+    },
+    "eglises_proche": {
+      "type": "component",
+      "repeatable": true,
+      "component": "eglise.eglises-a-proximiter"
+    },
+    "info_horaires": {
+      "type": "richtext"
+    },
+    "source": {
+      "type": "richtext"
+    },
+    "contact_et_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "eglise.contact-et-info"
+    }
+  }
+}

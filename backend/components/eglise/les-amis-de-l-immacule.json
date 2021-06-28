@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_eglise_les_amis_de_l_immacule",
+  "info": {
+    "name": "les_amis_de_l'immaculé",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "adresse_lien": {
+      "type": "string"
+    },
+    "nom_lien": {
+      "type": "string"
+    }
+  }
+}

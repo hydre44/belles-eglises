@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_eglise_eglises_a_proximiters",
+  "info": {
+    "name": "eglises_a_proximiter",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "nom_eglise": {
+      "type": "string"
+    },
+    "ville": {
+      "type": "string"
+    },
+    "note_moyenne": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 5,
+      "min": 0
+    },
+    "photo_eglise": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

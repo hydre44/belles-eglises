@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_eglise_office_du_tourismes",
+  "info": {
+    "name": "office_du_tourisme",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "info_office_du_tourisme": {
+      "type": "richtext"
+    }
+  }
+}

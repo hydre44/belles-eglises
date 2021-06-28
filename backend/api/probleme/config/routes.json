@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/problemes",
+      "handler": "probleme.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/problemes/count",
+      "handler": "probleme.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/problemes/:id",
+      "handler": "probleme.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/problemes",
+      "handler": "probleme.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/problemes/:id",
+      "handler": "probleme.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/problemes/:id",
+      "handler": "probleme.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

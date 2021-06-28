@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_eglise_ajouter_un_comms",
+  "info": {
+    "name": "ajouter_un_comm",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "commentaire": {
+      "type": "string"
+    },
+    "note": {
+      "type": "integer",
+      "max": 5,
+      "min": 0,
+      "default": 0
+    }
+  }
+}

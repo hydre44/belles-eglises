@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_eglise_espace_commentaires",
+  "info": {
+    "name": "espace_commentaire",
+    "icon": "comment"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "note_global": {
+      "type": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 5,
+      "required": true
+    },
+    "ajout_commentaire": {
+      "type": "string"
+    }
+  }
+}

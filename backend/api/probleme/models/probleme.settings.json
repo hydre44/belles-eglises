@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "problemes",
+  "info": {
+    "name": "probleme"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "eglise": {
+      "via": "problemes",
+      "model": "eglises"
+    }
+  }
+}

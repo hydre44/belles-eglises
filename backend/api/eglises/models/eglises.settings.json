@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "eglises",
+  "info": {
+    "name": "Eglises",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "eglise.header"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "eglise.section-eglise"
+    },
+    "bas_de_page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "eglise.bas-de-page"
+    },
+    "problemes": {
+      "via": "eglise",
+      "collection": "probleme"
+    },
+    "nom": {
+      "type": "string",
+      "private": true
+    }
+  }
+}

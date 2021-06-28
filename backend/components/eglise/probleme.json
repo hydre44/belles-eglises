@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_eglise_problemes",
+  "info": {
+    "name": "probléme",
+    "icon": "exclamation-triangle"
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}

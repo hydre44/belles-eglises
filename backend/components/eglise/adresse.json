@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_eglise_adresses",
+  "info": {
+    "name": "adresse",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "ville": {
+      "type": "string"
+    },
+    "departement": {
+      "type": "string"
+    },
+    "adresse": {
+      "type": "string"
+    }
+  }
+}

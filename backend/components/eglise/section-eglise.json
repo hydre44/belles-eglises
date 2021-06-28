@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_eglise_section_eglises",
+  "info": {
+    "name": "sectionEglise",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "miniature": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "paragraphe": {
+      "type": "component",
+      "repeatable": true,
+      "component": "eglise.paragraphe"
+    }
+  }
+}
